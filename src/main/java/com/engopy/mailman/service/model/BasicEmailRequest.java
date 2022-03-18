@@ -4,10 +4,8 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-@NoArgsConstructor
-@AllArgsConstructor
 @Getter
-public class EmailRequest {
+public class BasicEmailRequest {
 
     private String emailTo;
     private String subject;
