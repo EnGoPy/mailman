@@ -1,8 +1,6 @@
 package com.engopy.mailman.service.model;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 
 @Getter
 public class BasicEmailRequest {
